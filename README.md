@@ -4,13 +4,13 @@ Este proyecto es un programa sencillo hecho en Python para simular cómo se pued
 
 La red está representada como un grafo. Cada persona es un nodo y cada amistad es una conexión entre dos nodos. Para guardar esas conexiones se usa un diccionario de Python, donde cada persona tiene una lista con sus amigos.
 
-El programa permite:
+El programa te deja:
 
-- mostrar la red social,
-- añadir personas,
-- añadir amistades,
-- buscar una persona,
-- simular cómo se propaga un rumor.
+- mostrar la red social
+- añadir personas
+- añadir amistades
+- buscar una persona
+- simular cómo se propaga un rumor
 
 La parte principal del proyecto es la simulación de la propagación. Para eso se usa BFS, que significa búsqueda en anchura. Este algoritmo sirve para recorrer el grafo por niveles. En este caso, primero aparece la persona que empieza el rumor, después sus amigos directos, luego los amigos de esos amigos, y así hasta que ya no quedan más personas conectadas.
 
