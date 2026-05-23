@@ -12,11 +12,10 @@ El programa te deja:
 - buscar una persona
 - simular cómo se propaga un rumor
 
-La parte principal del proyecto es la simulación de la propagación. Para eso se usa BFS, que significa búsqueda en anchura. Este algoritmo sirve para recorrer el grafo por niveles. En este caso, primero aparece la persona que empieza el rumor, después sus amigos directos, luego los amigos de esos amigos, y así hasta que ya no quedan más personas conectadas.
+La parte principal del proyecto es la simulación de la propagación. Para eso se usa BFS. Este algoritmo sirve para recorrer el grafo por niveles. En este caso, primero aparece la persona que empieza el rumor, después sus amigos, luego los amigos de esos amigos, y así hasta que ya no quedan más personas conectadas.
 
-No he usado base de datos ni archivos externos porque quería hacer una versión más simple y fácil de entender. La red se guarda mientras el programa está abierto.
 
-## Cómo ejecutar el programa
+Cómo ejecutar el programa
 
 Para usarlo hay que abrir la terminal en la carpeta del proyecto y escribir:
 
@@ -26,12 +25,9 @@ python3 main.py
 
 Después aparece un menú y se van eligiendo las opciones con números.
 
-## Archivos del proyecto
+Archivos del proyecto
 
-- `main.py`: contiene todo el código del programa.
-- `README.md`: explicación del proyecto.
-
-## Ejemplo de red
+ Ejemplo de red
 
 El programa empieza con esta red de ejemplo:
 
@@ -43,6 +39,6 @@ El programa empieza con esta red de ejemplo:
 
 Así ya se puede probar la simulación sin tener que crear toda la red desde cero.
 
-## Conclusión
+ Conclusión
 
 Este proyecto sirve para practicar grafos y recorridos. Aunque es sencillo, representa una situación real, porque en una red social la información se mueve de persona a persona según las conexiones que tenga cada una.
