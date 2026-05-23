@@ -15,7 +15,7 @@ El programa te deja:
 La parte principal del proyecto es la simulación de la propagación. Para eso se usa BFS. Este algoritmo sirve para recorrer el grafo por niveles. En este caso, primero aparece la persona que empieza el rumor, después sus amigos, luego los amigos de esos amigos, y así hasta que ya no quedan más personas conectadas.
 
 
-##Cómo ejecutar el programa
+## Cómo ejecutar el programa
 
 Para usarlo hay que abrir la terminal en la carpeta del proyecto y escribir:
 
